@@ -74,17 +74,15 @@
 				event.preventDefault();
 				var response = '<div class="alert alert-warning alert-dismissable"> Processing.. </div>';
 				jQuery(this).find(".ajax-message").html(response).show('slow');
-				var formData = new FormData(this);
-				var formAction = jQuery(this).attr('action');
+				var postdata = $('.contact-form form').serialize();
+				/*	var formData = new FormData(this);
+					var formAction = jQuery(this).attr('action');*/
 				jQuery.ajax({
 					type: 'POST',
-					url: formAction,
-					data: formData,
-					contentType: false,
-					cache: false,
-					processData: false,
+					url: 'code.php',
+					data: postdata,
 					dataType: 'json',
-					success: function (data) {
+					success: function (json) {
 						if (data.status == 1) {
 							response = '<div class="gen alert alert-success">' + data.message + '</div>';
 						} else {
