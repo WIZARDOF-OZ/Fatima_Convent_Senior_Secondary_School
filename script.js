@@ -1,6 +1,6 @@
 $(function () {
 
-    $('#contact-form').validator();
+    // $('#contact-form').validator();
 
 
     // when the form is submitted
