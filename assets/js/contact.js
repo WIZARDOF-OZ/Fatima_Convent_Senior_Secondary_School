@@ -149,7 +149,7 @@
 		/* Functions Calling */
 		return {
 			afterLoadThePage: function () {
-				// contactForm();
+				contactForm();
 				subscriptionForm();
 				validateInteger();
 				validateCharacter();
