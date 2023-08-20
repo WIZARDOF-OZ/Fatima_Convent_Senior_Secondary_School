@@ -54,16 +54,11 @@
             });
         };</script>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("WtTFiyLzg19ww4rzN");
-        })();
-    </script>
     <script>
         const btn_send = () => {
             addEventListener('submit', () => {
-                document.getElementById('btn-send')
+                const menu = document.querySelector('.btn-send')
+                console.log(menu + 'success')
             })
         }
     </script>

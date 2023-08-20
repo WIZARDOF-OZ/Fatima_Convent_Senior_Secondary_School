@@ -54,6 +54,10 @@
 html.body {
   overflow-x: hidden;
 }
+*::selection {
+  color: #202020;
+  background-color: #e7ad28;
+}
 .img-align {
   width: 110px;
   margin-top: 14px;

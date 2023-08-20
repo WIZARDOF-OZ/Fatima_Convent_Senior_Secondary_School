@@ -504,7 +504,6 @@
 				wowAnimation();
 				scrollPageLayout();
 				setHeaderHeight();
-				searchBar();
 				magnificPopupImageView();
 				pageScrollToTop();
 				managePlaceholderStyle();
@@ -523,7 +522,7 @@
 				setCounterUp();
 				masonryLayout();
 				// manageLoader();
-				checkMobileDevice();
+				// checkMobileDevice();
 			},
 
 			changeTheScreen: function () {
