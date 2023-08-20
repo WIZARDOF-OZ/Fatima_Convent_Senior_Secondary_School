@@ -611,10 +611,10 @@ html.body {
   font-size: 14px;
   padding: 8px 20px;
   text-transform: capitalize;
-  transition: all 0.15s linear;
   -webkit-transition: all 0.15s linear;
   -moz-transition: all 0.15s linear;
   -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
   font-weight: 400;
   font-family: Rubik;
 }
@@ -1077,11 +1077,11 @@ html.body {
 
   .menu-links .nav > li .sub-menu li .fa {
     top: 50%;
-    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     margin: 0;
     right: -1px;
     color: rgb(87, 71, 71);
@@ -1119,10 +1119,10 @@ html.body {
     width: 60px;
     left: -280px;
     height: 100vh !important;
-    transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.5s;
     top: 0;
     background-color: #fff;
     margin: 0;
@@ -1142,10 +1142,10 @@ html.body {
 
   .rs-nav .menu-links.show {
     left: -1px;
-    transition: all 0.8s;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
+    transition: all 0.8s;
     margin: 0;
     width: 100%;
     width: 300px;
@@ -1165,10 +1165,10 @@ html.body {
     position: fixed;
     right: 0px;
     top: -20px;
-    transform: scale(100);
     -o-transform: scale(100);
     -moz-transform: scale(100);
     -webkit-transform: scale(100);
+    transform: scale(100);
     width: 100%;
     z-index: -1;
     transition: all 0.5s;

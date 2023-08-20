@@ -183,10 +183,10 @@
 
 
 		/* To Get Search Bar*/
-		var searchBar = function () {
-			jQuery("#quik-search-btn").on('click', function () { jQuery('.nav-search-bar').fadeIn(500).addClass('On'); });
-			jQuery("#search-remove").on('click', function () { jQuery('.nav-search-bar').fadeOut(500).removeClass('On'); });
-		}
+		// var searchBar = function () {
+		// 	jQuery("#quik-search-btn").on('click', function () { jQuery('.nav-search-bar').fadeIn(500).addClass('On'); });
+		// 	jQuery("#search-remove").on('click', function () { jQuery('.nav-search-bar').fadeOut(500).removeClass('On'); });
+		// }
 
 		/* Control One Page Layout */
 		var scrollPageLayout = function () {
@@ -523,7 +523,7 @@
 				setCounterUp();
 				masonryLayout();
 				// manageLoader();
-
+				checkMobileDevice();
 			},
 
 			changeTheScreen: function () {

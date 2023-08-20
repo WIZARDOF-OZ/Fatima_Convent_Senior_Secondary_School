@@ -144,8 +144,6 @@
 
 
 
-
-
 		/* Functions Calling */
 		return {
 			afterLoadThePage: function () {
