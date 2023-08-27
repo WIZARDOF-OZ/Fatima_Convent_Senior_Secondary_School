@@ -2517,6 +2517,17 @@ button.back-to-top {
 }
 
 /* Popular Courses */
+.cours-bx .action-box .btn {
+  border-radius: 0;
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
 .cours-bx .info-bx {
   padding: 15px;
   font-size: 13px;
