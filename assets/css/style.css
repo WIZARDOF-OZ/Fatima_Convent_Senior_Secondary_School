@@ -1274,7 +1274,10 @@ html.body {
 
 .header-transparent .is-fixed .menu-bar {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(7px);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .header-transparent .top-bar {

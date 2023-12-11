@@ -1,5 +1,6 @@
 .widget {
     margin-bottom: 50px;
+    width: 70%;
 }
 .widget-title {
     position: relative;
@@ -17,6 +18,13 @@
     padding: 0;
 	border: 0;
 }
+@media only screen and (min-width: 1000px) {
+    /* Your styles for screens up to 1000px go here */
+    .up_footer_part{
+        margin-left: -186px;
+    }
+}
+
 /* widget link*/
 .widget-link ul{
     margin: 0px;

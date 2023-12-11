@@ -213,6 +213,10 @@ ul.slides .clearfix {
     /* position: relative; */
 }
 
+.more_space{
+    visibility: hidden;
+}
+
 .gdlr-core-pbf-column,
 .gdlr-core-pbf-column-content-margin {
     position: relative;
