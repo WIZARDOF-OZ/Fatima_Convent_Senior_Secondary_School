@@ -1025,7 +1025,8 @@
 }
 .header-transparent .is-fixed .menu-bar{
 	position:fixed;
-	background-color:rgba(0,0,0,0.9);
+	background-color:rgba(0, 0, 0, 0.55);
+	backdrop-filter: blur(7px);
 }
 .header-transparent .top-bar{
 	background-color: rgba(0,0,0,0);
